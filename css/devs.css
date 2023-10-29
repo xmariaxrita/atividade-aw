@@ -34,6 +34,19 @@ a {
   text-decoration: none;
 }
 
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  width: 450px;
+  margin: 10px 0;
+}
+
+b {
+  color: #f7f181;
+}
+
 footer {
   align-items: center;
   background-color: #181829;
@@ -62,6 +75,33 @@ section h2 {
   align-items: center;
   display: flex;
   margin-left: 10%;
+}
+
+.card {
+  align-items: center;
+  border: #181829 solid 2px;
+  border-radius: 10px;
+  display: flex;
+  height: 400px;
+  justify-content: space-evenly;
+  margin: 30px auto;
+  width: 1000px;
+}
+
+.perfil {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+}
+
+.infos {
+  width: 450px;
+}
+
+.icons {
+  height: 40px;
+  margin-right: 10px;
+  width: 40px;
 }
 
 nav > a:hover,
