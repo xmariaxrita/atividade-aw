@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Jaguar</title>
+    <link rel="shortcut icon" href="ico/jaguar.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="logo">
+                <img src="svg/jaguar.svg" alt="logo" style="display: flex; height: 55px; width: 55px;" class="icon">
+                <h1>Instituto Jaguar</h1>
+            </div>
+            <nav>
+                <a href="index.html" class="link is-active">Home</a>
+                <a href="galeria.html">Galeria</a>
+                <a href="devs.html">Desenvolvedores</a>
+            </nav>
+        </header>
+
+        <div class="slideshow-container" style="margin-bottom: 20px;">
+            <div class="slide fade">
+                <img class="slide-img" src="img/img6.jpg" alt="onça-pintada">
+            </div>
+            <div class="slide fade">
+                <img class="slide-img" src="img/img4.jpg" alt="onça-preta e onça-pintada">
+            </div>
+            <div class="slide fade">
+                <img class="slide-img" src="img/img5.jpg" alt="onça-pintada sobre um galho">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)"><img src="icons/esquerda.png" alt=""></a>
+            <a class="next" onclick="plusSlides(1)"><img src="icons/direita.png" alt=""></a>
+        </div>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <div class="layout">
+            <h2>Conheça o maior <br>
+                felino das Américas</h2>
+        </div>
+
+        <div class="layout">
+            <img src="img/img3.jpg" alt="onça-pintada bebendo água" style="border-radius: 10px; height: 950px;">
+            <article class="card-info">
+                <div class="d-flex">
+                    <h2 style="color: #f7f181; font-style: italic; margin: 0;">Panthera onca</h2>
+                    <a href="#infos" class="btn">Ver mais</a>
+                </div>
+
+                <div class="tags">
+                    <span class="tag" style="background-color: #F7819E;">onça-pintada</span>
+                    <span class="tag" style="background-color: #82AFF7;">jaguar</span>
+                    <span class="tag" style="background-color: #A382F7;">onça-preta</span>
+                </div>
+                <p class="texto">A onça-pintada é o maior felino do continente americano, podendo chegar a 135 kg. É um
+                    animal robusto, com grande força muscular, sendo a potência de sua mordida considerada a maior
+                    dentre os felinos de todo o mundo.</p>
+                <details>
+                    <summary>Taxonomia</summary>
+                    <p><b>Reino:</b> Animalia <br>
+                        <b>Filo:</b> Chordata <br>
+                        <b>Classe:</b> Mammalia <br>
+                        <b>Ordem:</b> Carnivora <br>
+                        <b>Família:</b> Felídeos <br>
+                        <b>Subfamília:</b> Pantherinae <br>
+                        <b>Gênero:</b> Panthera <br>
+                        <b>Espécie:</b> <em>P. onca</em>
+                    </p>
+                </details>
+                <details>
+                    <summary>Distribuição geográfica e Habitat</summary>
+                    <p>A onça-pintada ocorria desde o sudoeste dos Estados Unidos até o sul da Argentina. Atualmente,
+                        ocupa somente cerca de 50% de sua distribuição histórica. Quando consideramos apenas o Brasil, a
+                        espécie pode ser observada em praticamente todos os biomas, com exceção do Pampa.
+                    <p>Esses animais <b>preferem regiões de florestas, com presença de corpos
+                            d'água e grande quantidade
+                            de
+                            presas</b>.
+                        Entretanto, podem ocorrer em outros ambientes, como áreas de pântano sazonalmente inundadas e
+                        pastagens.</p>
+                </details>
+            </article>
+        </div>
+
+        <div id="infos">
+            <article class="card-info" style="border: none; height: 1065px;">
+                <h2>Hábitos</h2>
+                <p class="texto">As onças-pintadas são <b>solitárias,
+                        territoriais e noturnas</b>. Seus hábitos variam um pouco, mas geralmente incluem caçar à
+                    noite,
+                    descansar durante o dia e serem <b>extremamente cuidadosas ao se aproximar de presas</b>. A
+                    onça-pintada é
+                    conhecida por ser uma <b>nadadora habilidosa</b> e por subir em árvores para descansar ou
+                    para <b>surpreender
+                        suas presas</b>. Elas têm uma dieta diversificada, caçando desde peixes até <b>mamíferos de
+                        grande porte</b>. O
+                    território de uma onça-pintada pode abranger uma grande área, e elas marcam seus territórios com
+                    <b>urina e arranhões em árvores</b>.
+                </p>
+                <h2>Alimentação</h2>
+                <p class="texto">As onças-pintadas <b>são animais carnívoros considerados
+                        caçadores
+                        oportunistas</b>, atacando presas
+                    que, geralmente, estão distraídas. Podem se alimentar de uma grande variedade de animais, com
+                    mais de 85 espécies diferentes identificadas como partes da sua dieta. Como apresentam uma
+                    distribuição geográfica grande, a dieta está relacionada com o local onde o indivíduo se
+                    desenvolve.
+                </p>
+                <h2>Por que a onça-pintada?</h2>
+                <p class="texto">Por sua beleza impressionante e papel crucial nos ecossistemas onde vivem. Além disso,
+                    simbolizam força, coragem e poder na mitologia da maioria dos países da América Latina.
+                </p>
+            </article>
+            <img src="img/img8.png" alt="onça-pintada nadando" style="border-radius: 10px; width: 1000px;">
+        </div>
+
+        <footer>
+            <p>IFRN - Santa Cruz</p>
+            <p>Trabalho de Autoria Web</p>
+            <p>Prof. Marcelo Figueiredo Barbosa Júnior</p>
+            <p>Maria Rita Silva Amador</p>
+        </footer>
+
+    </main>
+
+    <script src="js/script.js">
+    </script>
+</body>
+
+</html>

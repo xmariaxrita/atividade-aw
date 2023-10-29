@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+body {
+  background-color: #0c0c15;
+}
+
+header {
+  display: flex;
+  height: 90px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: 800;
+  margin-left: 10px;
+  text-transform: lowercase;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10%;
+}
+
+h2 {
+  font-weight: 800;
+}
+
+a {
+  text-decoration: none;
+}
+
+details {
+  margin: 20px 50px;
+}
+
+summary {
+  color: #f7f181;
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+b {
+  color: #f7f181;
+}
+
+footer {
+  align-items: center;
+  background-color: #181829;
+  display: flex;
+  height: 100px;
+  justify-content: space-evenly;
+  margin-top: 200px;
+  text-align: center;
+}
+
+nav a {
+  font-weight: 500;
+  margin: 0 20px;
+  text-transform: lowercase;
+}
+
+div h2 {
+  font-size: 3.75em;
+  font-weight: 800;
+  text-align: center;
+}
+
+details > p {
+  margin: 10px 50px;
+  width: 500px;
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+  margin-left: 10%;
+}
+
+.layout {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3% 0;
+  width: 100%;
+}
+
+.card-info {
+  border: #181829 solid 2px;
+  border-radius: 10px;
+  height: 950px;
+  width: 700px;
+}
+
+.d-flex {
+  align-items: center;
+  display: flex;
+  margin: 50px 50px 5px;
+}
+
+.tags {
+  margin: 0 50px;
+  text-align: left;
+}
+
+.tag {
+  border-radius: 10px;
+  color: #0c0c15;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 600;
+  margin: 3px;
+  padding: 4px;
+  text-align: center;
+}
+
+.texto {
+  margin: 40px 50px;
+  width: 500px;
+}
+
+.btn {
+  align-items: center;
+  background-color: #181829;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  display: flex;
+  font-size: 1em;
+  font-weight: 600;
+  height: 40px;
+  justify-content: center;
+  margin: 0px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 120px;
+}
+
+.card-info h2 {
+  display: inline-block;
+  font-size: 2.5em;
+  margin: 50px 50px 5px;
+  text-align: left;
+}
+
+nav > a:hover,
+.link.is-active {
+  border-bottom: solid 2px;
+  border-radius: 2px;
+  color: #f7f181;
+  transition: background-color 0.6s ease;
+}
+
+.btn:hover {
+  background-image: linear-gradient(180deg, #f7f181, #f7a382);
+  color: #0c0c15;
+}
+
+#descricao,
+#infos {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  height: 1000px;
+}
+
+/* * Carrossel */
+
+.slide-img {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.next {
+  border-radius: 3px 0 0 3px;
+  right: 0;
+}
+
+.dot {
+  background-color: #24243f;
+  border-radius: 50%;
+  display: inline-block;
+  height: 15px;
+  margin: 0 2px;
+  transition: background-color 0.6s ease;
+  width: 15px;
+}
+
+.dot-is-active {
+  background-color: #f7f181;
+}
+
+.prev,
+.next {
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: -22px;
+  padding: 16px;
+  position: absolute;
+  top: 50%;
+  transition: 0.6s ease;
+  width: auto;
+}
+
+.prev img,
+.next img {
+  height: 60px;
+  width: 60px;
+}
